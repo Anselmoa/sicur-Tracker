@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SicurTracker.Views.SplashScreen"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <StackLayout VerticalOptions="Center">
+                <Image x:Name="logoImage" Source="http://chittagongit.com//images/location-png-icon/location-png-icon-16.jpg" WidthRequest="150"  HorizontalOptions="Center"/>
+                <Label Text="Sicur Tracker" FontSize="35" TextColor="White"  HorizontalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

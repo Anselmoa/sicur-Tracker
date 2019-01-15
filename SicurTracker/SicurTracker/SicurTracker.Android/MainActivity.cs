@@ -14,6 +14,8 @@ namespace SicurTracker.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Xamarin.FormsMaps.Init(this, savedInstanceState);
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
